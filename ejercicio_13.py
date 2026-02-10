@@ -1,7 +1,7 @@
-horas_trabajadas = float(input("Ingrese las horas trabajadas: "))
+horas_trabajadas = float(input("Digite las horas trabajadas: "))
 
-valor_por_hora = float(input("Ingrese el valor por hora: "))
+valor_por_hora = float(input("Digite el valor por hora: "))
 
 salario = horas_trabajadas * valor_por_hora
 
-print("\nSalario total:", salario)
+print("Salario total:", salario)

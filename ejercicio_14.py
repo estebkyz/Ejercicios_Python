@@ -1,4 +1,4 @@
-print("Ingrese los datos de los 4 artículos:\n")
+print("Digite los datos de los 4 artículos:\n")
 
 print("Artículo 1:")
 precio1 = float(input("  Precio: "))
@@ -27,7 +27,6 @@ iva = subtotal_total * 0.19
 
 total = subtotal_total + iva
 
-print("\n--- FACTURA ---")
 print("Subtotal:", subtotal_total)
-print("IVA (19%):", iva)
+print("IVA 19%:", iva)
 print("Total:", total)

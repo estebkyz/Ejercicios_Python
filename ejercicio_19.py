@@ -1,8 +1,8 @@
-nombre = input("Ingrese el nombre: ")
-programa = input("Ingrese el programa de formación: ")
-ficha = input("Ingrese la ficha: ")
+nombre = input("Digite el nombre: ")
+programa = input("Digite el programa de formación: ")
+ficha = input("Digite la ficha: ")
 
-print("\nIngrese las 5 notas:")
+print("Digite las 5 notas:")
 nota1 = float(input("Nota 1: "))
 nota2 = float(input("Nota 2: "))
 nota3 = float(input("Nota 3: "))
@@ -11,7 +11,6 @@ nota5 = float(input("Nota 5: "))
 
 promedio = (nota1 + nota2 + nota3 + nota4 + nota5) / 5
 
-print("\n--- INFORMACIÓN DEL ESTUDIANTE ---")
 print("Nombre:", nombre)
 print("Programa:", programa)
 print("Ficha:", ficha)

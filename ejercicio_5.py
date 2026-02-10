@@ -1,6 +1,6 @@
-distancia = float(input("Ingrese la distancia en kilómetros: "))
-tiempo = float(input("Ingrese el tiempo en horas: "))
+distancia = float(input("Digite la distancia en kilómetros: "))
+tiempo = float(input("Digite el tiempo en horas: "))
 
 velocidad = distancia / tiempo
 
-print("\nLa velocidad es:", velocidad, "km/h")
+print("La velocidad es:", velocidad, "km/h")

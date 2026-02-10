@@ -4,4 +4,4 @@ numero3 = float(input("Ingrese el tercer número: "))
 
 suma = numero1 + numero2 + numero3
 
-print("La suma es:", suma)
+print("Resultado:", suma)

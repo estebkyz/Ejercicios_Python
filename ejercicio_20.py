@@ -1,6 +1,6 @@
-precio_unitario = float(input("Ingrese el precio unitario: "))
-cantidad = int(input("Ingrese la cantidad: "))
-descuento_porcentaje = float(input("Ingrese el descuento (%): "))
+precio_unitario = float(input("Digite el precio unitario: "))
+cantidad = int(input("Digite la cantidad: "))
+descuento_porcentaje = float(input("Digite el descuento (%): "))
 
 subtotal = precio_unitario * cantidad
 
@@ -12,7 +12,7 @@ iva = subtotal_con_descuento * 0.19
 
 precio_neto = subtotal_con_descuento + iva
 
-print("\nSubtotal:", subtotal)
+print("Subtotal:", subtotal)
 print("Descuento:", descuento)
 print("Monto del IVA:", iva)
 print("Precio neto:", precio_neto)

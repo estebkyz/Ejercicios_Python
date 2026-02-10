@@ -1,4 +1,4 @@
-monto_prestamo = float(input("Ingrese el monto del préstamo: "))
+monto_prestamo = float(input("Digite el monto del préstamo: "))
 
 tasa_interes = 0.05 
 anos = 5
@@ -13,7 +13,6 @@ interes_total = interes_anual * anos
 
 total_a_pagar = monto_prestamo + interes_total
 
-print("\n--- CÁLCULO DEL PRÉSTAMO ---")
 print("Monto del préstamo:", monto_prestamo)
 print("\nIntereses:")
 print("En un año:", interes_anual)
